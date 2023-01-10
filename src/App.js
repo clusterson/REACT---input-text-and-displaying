@@ -5,11 +5,11 @@ function App() {
   const [displayedText, setDisplayedText] = useState('');
 
   const handleChange = (event) => {
+    console.log('hola');
     setText(event.target.value);
   };
 
   const handleSubmit = (event) => {
-    
     event.preventDefault();
     setDisplayedText(text);
   };
